@@ -21,4 +21,17 @@
     <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">#000</item>
     </style>
+    <!-- Customized preference activity -->
+    <style name="PreferenceScreen"  parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">#FFF</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">#000</item>
+        <item name="android:textColorPrimary">#000</item>
+    </style>
+    <!-- Customized theme for other activities -->
+    <style name="customTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">#000</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">#000</item>
+    </style>
 </resources>

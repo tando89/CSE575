@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".loadPreferenceActivity"
+            android:label="Preference"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/PreferenceScreen"></activity>
+        <activity android:name=".AboutTheApp"
+            android:label="School App"
+            android:parentActivityName=".loadPreferenceActivity"
+            android:theme="@style/customTheme">
+        </activity>
     </application>
 
 </manifest>
