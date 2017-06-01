@@ -1,0 +1,1 @@
+# I will be developing an app for CSE575. This Android app called “School.” This app will an informative app where users (students) can use to track, check, get notifications from the school, and also the users will be provided with some useful utilites.
