@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tando.school">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,12 +22,16 @@
             android:name=".loadPreferenceActivity"
             android:label="Preference"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/PreferenceScreen"></activity>
-        <activity android:name=".AboutTheApp"
+            android:theme="@style/PreferenceScreen" />
+        <activity
+            android:name=".AboutTheApp"
             android:label="School App"
             android:parentActivityName=".loadPreferenceActivity"
-            android:theme="@style/customTheme">
-        </activity>
+            android:theme="@style/customTheme"></activity>
+        <activity android:name=".MySchoolAccount"
+            android:label="Account"
+            android:theme="@style/customTheme"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
