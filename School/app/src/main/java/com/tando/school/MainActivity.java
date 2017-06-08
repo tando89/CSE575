@@ -71,4 +71,9 @@ public class MainActivity extends AppCompatActivity {
     public void StartAccount (View v) {
         startActivity(new Intent(this, MySchoolAccount.class));
     }
+
+    //Announcement Activity
+    public void StartAnnoucement (View view) {
+        startActivity(new Intent(this, Announcement.class));
+    }
 }
