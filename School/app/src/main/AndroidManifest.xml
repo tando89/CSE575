@@ -33,10 +33,25 @@
             android:label="Account"
             android:parentActivityName=".MainActivity"
             android:theme="@style/customTheme" />
-        <activity android:name=".Announcement"
+        <activity
+            android:name=".Announcement"
             android:label="Announcement"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/customTheme"></activity>
+            android:theme="@style/customTheme" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/customTheme" />
+        <activity
+            android:name=".SchoolFeedback"
+            android:label="Feedback to School"
+            android:parentActivityName=".Feedback"
+            android:theme="@style/customTheme" />
+        <activity android:name=".DepFeedback"
+            android:label="Feedback to CSE"
+            android:parentActivityName=".Feedback"
+            android:theme="@style/customTheme" />
     </application>
 
 </manifest>
