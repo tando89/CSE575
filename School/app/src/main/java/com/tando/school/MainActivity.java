@@ -76,9 +76,12 @@ public class MainActivity extends AppCompatActivity {
     public void StartAnnoucement (View view) {
         startActivity(new Intent(this, Announcement.class));
     }
-
     //feedback activity
     public void StartFeedback (View view) {
         startActivity(new Intent(this, Feedback.class));
+    }
+    //Utilities activity
+    public void StartUtils (View view) {
+        startActivity(new Intent(this, Utilities.class));
     }
 }

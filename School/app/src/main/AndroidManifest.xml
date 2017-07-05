@@ -48,9 +48,19 @@
             android:label="Feedback to School"
             android:parentActivityName=".Feedback"
             android:theme="@style/customTheme" />
-        <activity android:name=".DepFeedback"
+        <activity
+            android:name=".DepFeedback"
             android:label="Feedback to CSE"
             android:parentActivityName=".Feedback"
+            android:theme="@style/customTheme" />
+        <activity
+            android:name=".Utilities"
+            android:label="Utilities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/customTheme" />
+        <activity android:name=".Calendar"
+            android:label="Calendar"
+            android:parentActivityName=".Utilities"
             android:theme="@style/customTheme" />
     </application>
 
