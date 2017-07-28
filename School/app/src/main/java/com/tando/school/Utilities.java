@@ -18,6 +18,11 @@ public class Utilities extends AppCompatActivity {
     public void StartCalendar (View view) {
         startActivity(new Intent(this, Calendar.class));
     }
+    //GPA Calculator
+    public void StartGPACal (View view) {
+        startActivity(new Intent(this, GPAcalculator.class));
+    }
+    //Location
 
     //link to FaceBook
     public void fbClick (View view) {
