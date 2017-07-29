@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tando.school">
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -63,8 +63,13 @@
             android:label="Calendar"
             android:parentActivityName=".Utilities"
             android:theme="@style/customTheme" />
-        <activity android:name=".GPAcalculator"
+        <activity
+            android:name=".GPAcalculator"
             android:label="GPA Calculator"
+            android:parentActivityName=".Utilities"
+            android:theme="@style/customTheme" />
+        <activity android:name=".MyLocation"
+            android:label="My Location"
             android:parentActivityName=".Utilities"
             android:theme="@style/customTheme"/>
     </application>

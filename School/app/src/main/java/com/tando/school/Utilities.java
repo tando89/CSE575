@@ -22,6 +22,10 @@ public class Utilities extends AppCompatActivity {
     public void StartGPACal (View view) {
         startActivity(new Intent(this, GPAcalculator.class));
     }
+    //MyLocation
+    public void StartLoc (View view) {
+        startActivity(new Intent(this, MyLocation.class));
+    }
     //Location
 
     //link to FaceBook
