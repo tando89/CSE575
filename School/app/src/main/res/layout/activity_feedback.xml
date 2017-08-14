@@ -25,7 +25,7 @@
                 android:id="@+id/logo"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:background="@drawable/school_logo"
+                android:background="@drawable/mainlogo"
                 android:layout_gravity="center"/>
             <Button
                 android:text="Feedback to school"
@@ -35,7 +35,7 @@
                 android:id="@+id/feedback01"
                 android:layout_marginTop="50dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/sections"
+                android:background="@drawable/feedback"
                 android:onClick="feedbackSchool"/>
 
             <Button
@@ -46,7 +46,7 @@
                 android:id="@+id/feedback02"
                 android:layout_marginTop="30dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/sections"
+                android:background="@drawable/feedback"
                 android:onClick="feedbackDep"/>
             <!--Social Media -->
             <LinearLayout

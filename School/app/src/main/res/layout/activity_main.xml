@@ -22,7 +22,7 @@
                     android:id="@+id/logo"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
-                    android:background="@drawable/school_logo"
+                    android:background="@drawable/mainlogo"
                     android:layout_gravity="center"/>
             <!--4 sections of the app -->
             <Button
@@ -32,7 +32,7 @@
                 android:textColor="#FFFFFF"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="10dp"
-                android:background="@drawable/sections"
+                android:background="@drawable/mainpage"
                 android:onClick="StartAccount"
                 />
             <Button
@@ -41,7 +41,7 @@
                 android:text="Announcement"
                 android:textColor="#FFFFFF"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/sections"
+                android:background="@drawable/mainpage"
                 android:onClick="StartAnnoucement"
                 />
             <Button
@@ -50,7 +50,7 @@
                 android:text="Feedback/Advising"
                 android:textColor="#FFFFFF"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/sections"
+                android:background="@drawable/mainpage"
                 android:onClick="StartFeedback"
                 />
             <Button
@@ -59,7 +59,7 @@
                 android:text="Utilities"
                 android:textColor="#FFFFFF"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/sections"
+                android:background="@drawable/mainpage"
                 android:onClick="StartUtils"
                 />
             <!--Social Media -->

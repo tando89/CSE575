@@ -19,7 +19,7 @@
                 android:id="@+id/logo"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:background="@drawable/school_logo"
+                android:background="@drawable/mainlogo"
                 android:layout_gravity="center"/>
             <TextView
                 android:layout_marginLeft="10dp"
