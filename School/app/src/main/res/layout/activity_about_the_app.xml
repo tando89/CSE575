@@ -19,7 +19,7 @@
                 android:id="@+id/logo"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:background="@drawable/school_logo"
+                android:background="@drawable/mainlogo"
                 android:layout_gravity="center"
                 android:onClick="backHome"/>
             <TextView
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#000"
                 android:layout_margin="20dp"
-                android:text="This app is developing by Tan Do. He is a student of CSUSB and majors in Computer Systems, and he developed this app as a project for his internship with prefessor Ken Han. This app is an informative app where users (students) can use to track, check, get notifications from the school, and also the users will be provided with some useful utilites. "/>
+                android:text="This app is developing by Tan Do. He is a student of CSUSB and majors in Computer Systems, and he developed this app as a project for his internship with professor Ken Han. This app is an informative app where users (students) can use to track, check, get notifications from the school, and also the users will be provided with some useful utilites. "/>
 
         </LinearLayout>
     </ScrollView>
